@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import { createAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import fetchMessage from '../service/api';
 
