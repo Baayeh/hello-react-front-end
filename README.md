@@ -65,17 +65,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-> Latest version of Ruby: <a href="https://www.ruby-lang.org/en/downloads/">Ruby</a>
-
+> Latest node version
 > Latest npm version
-
-> Latest yarn version
-
-> Database : PostgreSQL
-
-```sh
- gem install rails
-```
 
 ### Setup
 
@@ -83,7 +74,6 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Baayeh/hello-rails-back-end.git
   git clone https://github.com/Baayeh/hello-rails-front-end.git
 ```
 
@@ -92,9 +82,6 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hello-rails-back-end
-  bundle install
-
   cd hello-rails-front-end
   npm i
 ```
@@ -104,19 +91,14 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  cd hello-rails-back-end
-    rails s
-  
   cd hello-rails-front-end
-    npm run dev
+  npm run dev
 ```
 
 ### Deployment
 
 You can deploy this project using:
-
-For Backend - [Render](https://render.com/)
-For Frontend - [Vercel](https://vercel.com/)
+- [Vercel](https://vercel.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
